@@ -49,13 +49,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!--<configuration>
 					<addResources>true</addResources>
-				</configuration>
+				</configuration>-->
 
 			</plugin>
 		</plugins>
-		<resources>
+		<!--<resources>
 			<resource>
 				<directory>/src/main/resources</directory>
 				<filtering>true</filtering>
@@ -63,7 +63,7 @@
 					<include>**/banner.txt</include>
 				</includes>
 			</resource>
-		</resources>
+		</resources>-->
 	</build>
 
 </project>
